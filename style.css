@@ -1,0 +1,70 @@
+/* Fonte geral da página */
+body {
+  background-color: #fdf6ee; /* Bege sofisticado */
+  font-family: 'Raleway', Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  color: #333;
+}
+
+/* Container com sombra */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Foto de perfil redonda */
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid #b34800;
+}
+
+/* Nome em destaque */
+h1 {
+  color:#b34800;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Subtítulo */
+h2 {
+  color: #b34800;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+/* Texto descritivo */
+.descricao {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* Lista personalizada */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Link personalizado */
+a {
+  color:#b34800;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
